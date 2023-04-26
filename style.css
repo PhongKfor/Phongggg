@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.display {
+    position: relative;
+    display: inline-block;
+}
+
+.healthbar {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.player {
+    background-color: yellow;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 4px solid white;
+}
+
+.health {
+    width: 430px;
+    height: 100%;
+    background-color: red;
+    transition: 0.7s;
+}
+
+.timer {
+    background-color: rgb(38, 237, 234);
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+    border: 4px solid white;
+}
+
+.enemy {
+    background-color: yellow;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 4px solid white;
+}
+
+.displayText {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+.tt {
+    margin-top: 80px;
+}
+
+.hd {
+    width: 1024px;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(248, 242, 242);
+    border: 2px solid rgb(159, 158, 158);
+}
+
+.a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.r1pl2,
+.a.row1 {
+    margin-left: 40px;
+}
+
+.at1 {
+    margin-left: 82px;
+}
+
+.at2 {
+    margin-left: 40px;
+}
+
+.up {
+    margin-left: 3px;
+}
+
+i {
+    margin-top: 3px;
+}
+
+.text1 {
+    margin-left: 50px;
+}

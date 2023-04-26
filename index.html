@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phong's Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="display">
+        <div class="healthbar">
+            <!-- player health -->
+            <div class="player">
+                <div id="playerHealth" class="health"></div>
+            </div>
+            <!-- timer -->
+            <div class="timer">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="enemy">
+                <div id="enemyHealth" class="health"></div>
+            </div>
+        </div>
+        <div class="displayText"></div>
+        <canvas></canvas>
+    </div>
+    <h1 class="tt">Huong Dan Choi Game:</h1>
+    <div class="hd">
+        <div class="text1">Player 1</div>
+        <div class="text1">Player 2</div>
+        <div class="a row1">
+            <div class="btn up">w</div>
+            <div class="btn at1">g</div>
+            <div class="text">Attack 1</div>
+        </div>
+        <div class="a r1pl2">
+            <div class="btn up"><i class="fas fa-angle-up fa-2x"></i></div>
+            <div class="btn at1">,</div>
+            <div class="text">Attack 1</div>
+        </div>
+        <div class="a row2">
+            <div class="btn left">a</i></div>
+            <div class="btn right">d</div>
+            <div class="btn at2">h</div>
+            <div class="text">Attack 2</div>
+        </div>
+        <div class="a r2pl2">
+            <div class="btn left"><i class="fas fa-angle-left fa-2x"></i></div>
+            <div class="btn right"><i class="fas fa-angle-right fa-2x"></i></div>
+            <div class="btn at2">.</div>
+            <div class="text">Attack 2</div>
+        </div>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./js/utils.js"></script>
+    <script src="./js/classes.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
